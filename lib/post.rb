@@ -10,8 +10,8 @@ class Post
   end
   
   def artist_name
-    if self.artist
-      self.artist.name
+    if self.author
+      self.author.name
     else
       nil
     end
